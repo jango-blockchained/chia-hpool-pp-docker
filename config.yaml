@@ -1,0 +1,20 @@
+token: ""
+path:
+  - "/mnt/plots"
+minerName: <name-of-your-miner>
+apiKey: <apiKey>
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: info
+  path: ./log/
+  name: miner.log
+url:
+  info: ""
+  submit: ""
+  line: ""
+scanPath: false
+scanMinute: 60
+debug: ""
+language: en

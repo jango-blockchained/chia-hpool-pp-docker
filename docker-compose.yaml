@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  hpool-chia-miner:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - /local/plots:/mnt/plots:ro
+      - ${PWD}/config.yaml:/hpool/config.yaml:ro
+      - log:/hpool/log
+    stdin_open: true
+    tty: true
+
+volumes:
+  log:
