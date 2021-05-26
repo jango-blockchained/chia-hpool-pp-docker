@@ -1,4 +1,4 @@
-# hpool-docker
+# chia-hpool-docker
 
 Run the hpool chia miner in a Docker container
 
