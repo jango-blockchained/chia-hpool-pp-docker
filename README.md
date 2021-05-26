@@ -34,7 +34,19 @@ I have only tested this on Linux. If you get it to work with Windows or Mac plea
 To start the mining you need to run the container with the following command:
 
 ```bash
-docker-compose up --build
+docker-compose up --build -d
 ```
 
-This will build the docker image from the `Dockerfile` and it will start it.
+This will build the docker image from the `Dockerfile` and it will start hpool chia miner.
+
+To check logs you can use the `logs` command:
+
+```bash
+docker-compose logs -f
+```
+
+And to stop it:
+
+```bash
+docker-compose stop
+```
