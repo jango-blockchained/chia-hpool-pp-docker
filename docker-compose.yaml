@@ -1,13 +1,13 @@
 version: '3.4'
 
 services:
-  hpool-chia-miner:
+  hpool-chia-miner-pp:
     build: .
     restart: unless-stopped
     volumes:
-      - /local/plots:/mnt/plots:ro
+      - /mnt/storage/pool:/mnt/storage/pool:ro
       - ${PWD}/config.yaml:/hpool/config.yaml:ro
-      - log:/hpool/log
+      - /root/clx-chia-multi-setup/log:/hpool/log:rw
     stdin_open: true
     tty: true
 

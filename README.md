@@ -1,4 +1,4 @@
-# chia-hpool-docker
+# chia-hpool-pp-docker
 
 Run the hpool chia miner in a Docker container
 
@@ -27,7 +27,6 @@ You can keep the `path` as is, just make sure you specify your local path in the
 
 [Docker](https://docs.docker.com/get-docker/) and [docker-compose](https://github.com/docker/compose).
 
-I have only tested this on Linux. If you get it to work with Windows or Mac please let me know!
 
 ## Running
 
