@@ -1,6 +1,8 @@
 # chia-hpool-pp-docker
 
-Run the hpool chia miner in a Docker container
+Run the hpool chia pp miner in a Docker container
+
+Looking for [hpool og miner](https://github.com/polarn/chia-hpool-docker)? 
 
 ## Configuration
 
