@@ -1,8 +1,7 @@
 token: ""
 path:
   - "/mnt/storage/pool"
-
-minerName: clx-chia-hpool-pp-docker-01
+minerName: clx-chia-hpool-pp-docker-08-11
 apiKey: chiapp00-2552-483b-8ab4-2fb2c01364f7
 cachePath: ""
 deviceId: ""

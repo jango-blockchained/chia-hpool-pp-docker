@@ -3,6 +3,9 @@ version: '3.4'
 services:
   hpool-chia-miner-pp:
     build: .
+    dns:
+      - 8.8.8.8
+      - 127.0.0.53
     restart: unless-stopped
     volumes:
       - /mnt/storage/pool:/mnt/storage/pool:ro
